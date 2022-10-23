@@ -1,10 +1,19 @@
+:root {
+  --main-title-color: #ffffff;
+  --main-btn-color: #ffffff;
+  --secondary-title-color: #ffffff;
+  --secondary-btn-color: #212121;
+  --secondary-btn-back-color: #f5f4fa;
+  --text-decoration-color: #2196f3;
+  --web-logo-color: #2196f3;
+}
+
 ul {
   list-style: none;
 }
 body {
   font-family: Roboto, sans-serif;
-
-  color: ##212121;
+  color: #212121;
 }
 
 /*----------------------HEADER-----------------*/
@@ -25,7 +34,7 @@ body {
   text-decoration: underline #2196f3;
 }
 .web-logo {
-  color: #2196f3;
+  color: var(--web-logo-color);
 }
 
 .site-nav a {
@@ -45,7 +54,7 @@ body {
 
 .site-nav a:hover,
 a:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: underline var(--text-decoration-color);
 }
 .header-contacts a {
   text-decoration: none;
@@ -96,20 +105,19 @@ p {
   background-color: #2196f3;
 }
 .buttons {
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--secondary-btn-color);
+  background-color: var(--secondary-btn-back-color);
 }
 /*----------------------Footer-----------------*/
 footer {
   background-color: #2f303a;
-  text-align: left;
 }
 footer a {
   text-decoration: none;
 }
 footer a:hover,
 a:focus {
-  text-decoration: underline #2196f3;
+  text-decoration: underline var(--text-decoration-color);
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
