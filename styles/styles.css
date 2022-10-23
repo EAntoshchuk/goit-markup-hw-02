@@ -1,0 +1,132 @@
+ul {
+  list-style: none;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: ##212121;
+}
+
+/*----------------------HEADER-----------------*/
+
+.header-logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+.header-logo:hover,
+.logo:focus {
+  text-decoration: underline #2196f3;
+}
+.web-logo {
+  color: #2196f3;
+}
+.portfolio-link {
+  color: #2196f3;
+}
+.site-nav a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+.site-nav a:hover,
+a:focus {
+  text-decoration: underline #2196f3;
+}
+.header-contacts a {
+  text-decoration: none;
+}
+.header-contacts a:hover,
+a:focus {
+  text-decoration: underline #2196f3;
+}
+.email {
+  color: #2196f3;
+}
+.tel-number {
+  color: #757575;
+}
+
+/*----------------------Main-----------------*/
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.main-button {
+  cursor: pointer;
+}
+
+.button {
+  background-color: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  text-decoration: underline #2196f3;
+}
+.main-button:active,
+.main-button:hover,
+.main-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.buttons {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+/*----------------------Footer-----------------*/
+footer {
+  background-color: #2f303a;
+  text-align: left;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover,
+a:focus {
+  text-decoration: underline #2196f3;
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
