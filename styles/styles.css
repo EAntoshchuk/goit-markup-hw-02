@@ -27,9 +27,7 @@ body {
 .web-logo {
   color: #2196f3;
 }
-.portfolio-link {
-  color: #2196f3;
-}
+
 .site-nav a {
   text-decoration: none;
   font-style: normal;
@@ -38,6 +36,13 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
+.site-nav [href] {
+  color: #212121;
+}
+.site-nav [href="./portfolio.html"] {
+  color: #2196f3;
+}
+
 .site-nav a:hover,
 a:focus {
   text-decoration: underline #2196f3;
