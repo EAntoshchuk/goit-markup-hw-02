@@ -7,7 +7,7 @@
   --link-decoration-color: #2196f3;
   --web-logo-color: #2196f3;
   --description-text: #757575;
-  --link-active: #2196f3;
+  --link-active: #188ce8;
 }
 
 ul {
@@ -15,7 +15,7 @@ ul {
 }
 body {
   font-style: normal;
-  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Roboto, sans-serif;
   color: #212121;
 }
 
@@ -31,10 +31,7 @@ body {
   letter-spacing: 0.03em;
   text-shadow: 0px 4px 4px;
 }
-.header-logo:hover,
-.header.logo:focus {
-  text-decoration: underline var(--link-decoration-color);
-}
+
 .web-logo {
   color: var(--web-logo-color);
 }
@@ -54,7 +51,6 @@ body {
 a:focus,
 a:active {
   color: var(--link-active);
-  text-decoration: underline var(--link-decoration-color);
 }
 
 .header-contacts a {
@@ -65,12 +61,19 @@ a:active {
 a:focus,
 a:active {
   color: var(--link-active);
-  text-decoration: underline var(--link-decoration-color);
 }
 .email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   color: #2196f3;
 }
 .tel-number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   color: var(--description-text);
 }
 
@@ -111,10 +114,12 @@ a:active {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team {
+.team-section {
   background-color: #f5f4fa;
 }
-
+.team-item {
+  background-color: #ffffff;
+}
 .team-member {
   font-weight: 500;
   font-size: 16px;
@@ -133,6 +138,16 @@ a:active {
 }
 .main-button {
   cursor: pointer;
+  color: var(--main-btn-color);
+  background-color: #2196f3;
+}
+.buttons {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
 }
 .button {
   cursor: pointer;
@@ -152,6 +167,12 @@ a:active {
   color: var(--secondary-btn-color);
   background-color: var(--secondary-btn-back-color);
 }
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
 /*----------------------Footer-----------------*/
 footer {
   background-color: #2f303a;
@@ -159,10 +180,7 @@ footer {
 footer a {
   text-decoration: none;
 }
-footer a:hover,
-a:focus {
-  text-decoration: underline var(--link-decoration-color);
-}
+
 .footer-logo {
   font-family: Raleway, sans-serif;
   font-style: normal;
@@ -188,4 +206,12 @@ a:focus {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--web-logo-color);
 }
