@@ -53,6 +53,7 @@ body {
 .site-nav-item:current {
   color: var(--link-active);
 }
+/*елемент current в мене чомусь не працює, або його не правтльно використовую */
 
 .header-email,
 .header-tel {
