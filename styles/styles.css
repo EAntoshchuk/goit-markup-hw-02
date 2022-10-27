@@ -1,4 +1,5 @@
 :root {
+  --body-color: #212121;
   --main-title-color: #ffffff;
   --hero-btn-color: #ffffff;
   --secondary-title-color: #ffffff;
@@ -15,7 +16,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--body-color);
 }
 
 /*----------------------reset----------------------*/
@@ -46,14 +47,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-btn-color);
 }
-
-.site-nav-item:hover,
-.site-nav-item:focus,
-.site-nav-item:active,
-.site-nav-item:current {
+.current {
   color: var(--link-active);
 }
-/*елемент current в мене чомусь не працює, або його не правтльно використовую */
+.site-nav-item:hover,
+.site-nav-item:focus,
+.site-nav-item:active {
+  color: var(--link-active);
+}
 
 .header-email,
 .header-tel {
@@ -86,6 +87,7 @@ body {
 }
 .title {
   font-style: normal;
+  font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
