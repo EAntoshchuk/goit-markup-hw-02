@@ -1,5 +1,6 @@
 :root {
   --body-color: #212121;
+  --back-color: #2f303a;
   --main-title-color: #ffffff;
   --hero-btn-color: #ffffff;
   --secondary-title-color: #ffffff;
@@ -74,7 +75,7 @@ body {
 
 /*----------------------Main-----------------*/
 .hero {
-  background-color: #2f303a;
+  background-color: var(--back-color);
 }
 .hero-title {
   color: var(--main-title-color);
@@ -177,7 +178,7 @@ body {
 }
 /*----------------------Footer-----------------*/
 footer {
-  background-color: #2f303a;
+  background-color: var(--back-color);
 }
 .footer-adress,
 .footer-mail,
